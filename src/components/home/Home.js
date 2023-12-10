@@ -1,11 +1,8 @@
-import React from 'react'
-import Hero from '../hero/Hero'
+import Hero from '../hero/Hero';
 
 const Home = ({movies}) => {
   return (
-    <div>
-      <Hero movies={movies}/>
-    </div>
+    <Hero movies = {movies} />
   )
 }
 
